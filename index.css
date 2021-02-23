@@ -1,3 +1,86 @@
-p{
-    color: yellow;
+.column {
+    float: left;
+    width: 48%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column2 {
+    float: right;
+    width: 35%;
+    
+  }
+ .row{
+    margin-top: 50px;
+ }
+
+#profile{
+    width: 170px;
+    height: 174px;
+    border-radius: 110px;
+}
+#nm1{
+    margin-left: 182px;
+    margin-top: -150px;
+    width: 400px;
+
+}
+
+#exp{
+    font-size: 25px;
+}
+#exp2{
+    font-size: 25px;
+}
+#experience{
+    margin-top: 35px;
+    margin-left: -51px;
+   
+}
+#education{
+    margin-top: 50px;
+    margin-left: -51px;
+}
+#certification{
+    margin-top: 50px;
+    margin-left: -51px;
+}
+#interest{
+    margin-top: 50px;
+    margin-left: -51px;
+}
+ul#a1 li{
+    display: inline-block;
+    padding-left: 12px;
+    
+}
+ul#a3 li{
+    display: inline-block;
+    padding-left: 12px;
+    
+    
+}
+hr{
+    
+    margin-top: -32px;
+}
+
+
+#personalinfo{
+    margin-top: 45px; 
+    margin-left: -53px;
+   
+}
+
+#skill{
+    margin-top: 50px; 
+    margin-left: -53px;
+}
+#software{
+    margin-top: 50px; 
+    margin-left: -53px; 
+}
+#p1{
+   list-style: none;
+   margin-left: -36px;
+   line-height: 2;
 }
