@@ -33,20 +33,17 @@
 }
 #experience{
     margin-top: 35px;
-    margin-left: -51px;
    
 }
 #education{
     margin-top: 50px;
-    margin-left: -51px;
 }
 #certification{
     margin-top: 50px;
-    margin-left: -51px;
+   
 }
 #interest{
     margin-top: 50px;
-    margin-left: -51px;
 }
 ul#a1 li{
     display: inline-block;
@@ -90,4 +87,13 @@ hr{
    list-style: none;
    margin-left: -36px;
    line-height: 2;
+}
+
+ul#exp1 li{
+    display: inline;
+    padding-right: 300px;
+}
+
+td{
+    padding:5px
 }
