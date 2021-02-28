@@ -1,50 +1,38 @@
+body{
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+}
 .column {
     float: left;
     width: 48%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    
   }
   .column2 {
     float: right;
     width: 35%;
-    
+    margin-right: 10px;
   }
- .row{
-    margin-top: 50px;
- }
+ 
 
 #profile{
     width: 170px;
-    height: 174px;
     border-radius: 110px;
 }
 #nm1{
     margin-left: 182px;
-    margin-top: -150px;
-    width: 400px;
+    margin-top: -196px;  
 
 }
-
+#ftext{
+    font-size: 20px;
+}
 #exp{
     font-size: 25px;
 }
 #exp2{
     font-size: 25px;
 }
-#experience{
-    margin-top: 35px;
-   
-}
-#education{
-    margin-top: 50px;
-}
-#certification{
-    margin-top: 50px;
-   
-}
-#interest{
-    margin-top: 50px;
-}
+
 ul#a1 li{
     display: inline-block;
     padding-left: 12px;
@@ -70,17 +58,17 @@ hr{
 
 
 #personalinfo{
-    margin-top: 45px; 
+ 
     margin-left: -53px;
    
 }
 
 #skill{
-    margin-top: 50px; 
+  
     margin-left: -53px;
 }
 #software{
-    margin-top: 50px; 
+   
     margin-left: -53px; 
 }
 #p1{
@@ -92,8 +80,18 @@ hr{
 ul#exp1 li{
     display: inline;
     padding-right: 300px;
+    line-height: 2;
+}
+ul#expa2 li{
+    display: block;
+    padding-right: 300px;
+    line-height: 2;
 }
 
 td{
-    padding:5px
+    padding: 12px 68px;
+}
+
+#tbs{
+    margin-left:-26px ;
 }
